@@ -1,4 +1,3 @@
-
 // TODO: Include packages needed for this application
 // Include required packages
 const inquirer = require('inquirer');
@@ -18,11 +17,6 @@ const questions = [
     type: 'input',
     name: 'Description',
     message: 'What is this project\'s description?'
-  },
-  {
-    type: 'input',
-    name: 'Table of contents',
-    message: 'Who are the contributors and their roles in this project?'
   },
   {
     type: 'input',
