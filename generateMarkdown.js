@@ -46,27 +46,27 @@ function generateMarkdown(data) {
   
   ## Installation
   
-${this.Installation}
+${data.Installation}
   
   ## Usage
   
-  ${this.Usage}
+  ${data.Usage}
   
   ## License
   
-  ${renderLicenseSection(data.license)}
+  ${data.License}
   
   ## Contributing
   
-  ${this.Contributing}
+  ${data.Contributing}
   
   ## Tests
   
-  ${this.Test}
+  ${data.Test}
   
   ## Questions
   
-  ${this.Questions}
+  ${data.Questions}
   
   `}; 
 
