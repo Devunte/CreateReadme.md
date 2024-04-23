@@ -1,12 +1,3 @@
-// Function to render license badge based on the license type
-function renderLicenseBadge(license) {
-  if (license) {
-    return `[![License](https://img.shields.io/badge/License-${license}-blue.svg)`;
-  } else {
-    return '';
-  }
-}
-
 // Function to render license link based on the license type
 function renderLicenseLink(license) {
   if (license) {
